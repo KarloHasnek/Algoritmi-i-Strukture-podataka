@@ -1,0 +1,8 @@
+Key mora biti immutable data type (string ili int) --> DICTIONARY
+Value -> mutable data type
+vrijednostima pristupamo preko kljuceva
+
+brzina (cpu) i memorija -> ciljevi algoritama, usteda.
+
+
+remove element za doma!

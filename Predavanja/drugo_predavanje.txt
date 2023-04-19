@@ -1,0 +1,16 @@
+PYTHON
+
+positional arg i keyword arg
+
+def fja(a,b, c=10) ==> moze primiti 2 ili 3 parametra, stime da je 3. ima default vrijednost i takvi se stavljaju na kraj aka. keyword args!
+
+def fja2(*args) ==> moze primati proizvoljan broj parametara
+
+
+args = [1, a, b, 3]
+fja2(*args)
+
+
+
+
+push swapping u javi

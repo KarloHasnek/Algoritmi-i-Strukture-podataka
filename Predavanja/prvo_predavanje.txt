@@ -1,0 +1,7 @@
+-Podatak ?
+-Informacija je skup podataka koji smanjuje stupanj neodredenosti o nekome ili necemu. mora biti razumljiva i pravovremena.
+-Struktura podataka predstavlja organizirani skup podataka koji se sastoji od veceg ili manjeg broja primitivnih tipova podataka,njihovih prosirenja ili bilo kojeg tipa slozenih podataka koji su nastali njihovom kombinacijom
+	-Linearni: Liste i redovi
+	-Nelinearni: Stabla i grafovi
+
+E => bilo koja dobro definirana klasa
