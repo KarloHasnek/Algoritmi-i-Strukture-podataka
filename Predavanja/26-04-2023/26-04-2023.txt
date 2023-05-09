@@ -1,0 +1,2 @@
+U STOG-u su svi primitivni tipovi, reference i varijable
+a u Heepu je object

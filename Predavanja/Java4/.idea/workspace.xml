@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3ddac85-067f-4e8f-985a-0cfac3cd2035" name="Changes" comment="" />
+    <list default="true" id="d3ddac85-067f-4e8f-985a-0cfac3cd2035" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/pckg_01/CLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pckg_01/CLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../predavanje_3_java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../predavanje_3_java/Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +30,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/97466/Documents/Faks/Algoritmi i Strukture podataka/Predavanja/26-04-2023",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -42,6 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681917849933</updated>
       <workItem from="1681917850946" duration="44000" />
+      <workItem from="1682522925473" duration="24000" />
     </task>
     <servers />
   </component>

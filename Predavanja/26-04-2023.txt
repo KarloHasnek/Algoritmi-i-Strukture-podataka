@@ -1,0 +1,11 @@
+U STOG-u su svi primitivni tipovi, reference i varijable
+a u Heepu je object
+
+Base rule ili korjenski uvjet - uvjet koji zavrsava rekurziju.
+
+First in, last out
+
+
+Moze se koristiti ili child ili parent ako su sve metode prisutne, a ako child ima dodatne metode pazljivo izabrat sto nam je potrebno!
+
+UNDO/REDO ce bit na ispitu!!!!!!!!!!!

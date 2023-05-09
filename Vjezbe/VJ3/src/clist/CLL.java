@@ -1,4 +1,7 @@
-package pckg_01;
+package clist;
+
+import zadatak1.Node;
+import zadatak1.SLL;
 
 public class CLL<E> implements SLL<E> {
 
@@ -20,6 +23,16 @@ public class CLL<E> implements SLL<E> {
     @Override
     public boolean isEmpty() {
         return size == 0;
+    }
+
+    public Node<E> getTail() throws NullPointerException{
+        if(tail==null){
+            System.out.println("Tail is null");
+            throw new NullPointerException("Tail is null!");
+        } else {
+            System.out.println("Tail: " + tail.getElement());
+        }
+        return tail;
     }
 
     @Override
@@ -102,16 +115,11 @@ public class CLL<E> implements SLL<E> {
     public void insertAtPosition(E element, int position) {
     }
 
-
     @Override
     public String toString() {
-        return "CLL [tail=" + tail.getElement() + ", size=" + size + "]";
+        return "CLL [tail=" + (tail != null ? tail.getElement() : "null") + ", size=" + size + "]";
     }
 
-
-    /**
-    * Method that rotates tail in one direction
-    */
     public void rotate() {
         if (isEmpty()) {
             System.out.println("List is empty!");
@@ -121,4 +129,39 @@ public class CLL<E> implements SLL<E> {
         }
 
     }
+
+    @Override
+    public void clear() {
+        tail = null;
+        size = 0;
+        System.out.println("List is cleared!");
+    }
+
+    @Override
+    public E remove(int index) {
+        return null;
+    }
+
+    @Override
+    public E getFirst() {
+        E element = null;
+        if(isEmpty()){
+            System.out.println("List is empty - returning null!");
+        } else {
+            element = tail.getNext().getElement();
+        }
+        return element;
+    }
+
+    @Override
+    public E getLast() {
+        E element = null;
+        if (isEmpty()) {
+            System.out.println("List is empty - returning null!");
+        } else {
+            element = tail.getElement();
+        }
+        return element;
+    }
 }
+
