@@ -6,4 +6,4 @@
 
 -  Ukoliko neki od rješenja nisu pravilni ili jasni, slobodno me kontaktirajte za ispravak/objašnjenje.
 
-[Objektno Orjentirano Programiranje](https://github.com/KarloHasnek/Objektno-Orjentirano-Programiranje)
+    [Objektno Orjentirano Programiranje](https://github.com/KarloHasnek/Objektno-Orjentirano-Programiranje)
