@@ -31,3 +31,4 @@ if __name__ == '__main__':
     print(reverse_order(some_string))
     # print za obrnut redoslijed za any_input
     print(reverse_order(any_input))
+    
