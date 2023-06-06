@@ -1,0 +1,12 @@
+LinkedBlockingQueue koristimo jer:
+
+    -Thread-safe Queue implementacija
+
+    -Podrzava linked list strukturu
+
+    -Efikasni algoritmi za dodavanje i uklanjanje elemenata
+
+    -Blocking operacije (put, take) sluze ako thread pokusa uzeti element iz praznog queueu ili dodati element u pun queue
+    cekat ce dok ne bude to mogao uciniti
+
+    -Ima preodredenu velicinu

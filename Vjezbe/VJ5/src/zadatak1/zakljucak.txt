@@ -1,0 +1,2 @@
+Nakon razmatranja 2 rjesenja za inverziju ulaznog STOG-a vidimo da Hash kod ostaje isti u oba slucaja
+sto znaci da je lista ostala ista te da smo uspjesno izmanipulirali podatcima unutar liste.
