@@ -1,0 +1,42 @@
+Funkcija merge_sort(niz)
+
+    Ako je dužina(niz) <= 1
+        Vrati niz
+
+    Sredina = dužina(niz) // 2
+    lijeva_polovica = niz[0 : Sredina]
+    desna_polovica = niz[Sredina : kraj]
+
+    lijeva_polovica = pozovi funkciju merge_sort sa argumentima (lijeva_polovica)
+    desna_polovica = pozovi funkciju merge_sort sa argumentima (desna_polovica)
+
+    Vraćeni_niz = pozovi funkciju merge sa argumentima (lijeva_polovica, desna_polovica)
+    Vrati Vraćeni_niz
+
+
+Funkcija merge(lijeva_polovica, desna_polovica)
+
+    Spojeni_niz = []
+    index1 = 0
+    index2 = 0
+
+    Dokle god je index1 < dužina(lijeva_polovica) i index2 < dužina(desna_polovica)
+
+        Ako je lijeva_polovica[index1] <= desna_polovica[index2]
+            Dodaj lijeva_polovica[index1] u Spojeni_niz
+            index1 = index1 + 1
+        Inače
+            Dodaj desna_polovica[index2] u Spojeni_niz
+            index2 = index2 + 1
+
+    Dodaj preostale elemente iz lijevog niza
+    Dokle god je index1 < dužina(lijeva_polovica)
+        Dodaj lijeva_polovica[index1] u Spojeni_niz
+        index1 = index1 + 1
+
+    Dodaj preostale elemente iz desnog niza
+    Dokle god je index2 < dužina(desna_polovica)
+        Dodaj desna_polovica[index2] u Spojeni_niz
+        index2 = index2 + 1
+
+    Vrati Spojeni_niz

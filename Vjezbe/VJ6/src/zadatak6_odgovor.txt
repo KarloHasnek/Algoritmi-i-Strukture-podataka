@@ -1,0 +1,6 @@
+//Odgovorite, zašto je moguće koristiti TreeSet za sortiranje neke kolekcije?
+
+- Zato što TreeSet implementira SortedSet interface sto znaci:
+
+    Prilikom bilo kakvog dodavanja elemenata u TreeSet, oni se automatski sortiraju po nekom kriteriju (Comparable).
+    Ukoliko ne navedemo nacin sortiranja, onda se sortiraju po prirodnom redosljedu.
